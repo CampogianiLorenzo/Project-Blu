@@ -1,0 +1,439 @@
+/* #root {
+    --prymary-white: white;
+    --prymary-blu: #1566C0;
+    --text-white: white;
+    --text-grey: #6c757e;
+    --text-blu: #1566c0;
+} */
+
+body {
+    font-family: Righteous, Roboto, sans-serif;
+}
+
+p,
+button {
+    font-family: Roboto, sans-serif;
+}
+
+.main h2 {
+    color: #1566C0
+}
+
+
+/* * {
+    border: 2px solid green;
+} */
+
+
+
+/* INIZO HEADER */
+
+header {
+    background: linear-gradient(to top, black, transparent, rgb(5, 5, 5)), url(./header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-title {
+    position: absolute;
+    top: 18%;
+    bottom: 50%;
+
+}
+
+.header-title {
+    color: white;
+    font-size: 80px;
+}
+
+.header-subtitle {
+    color: white;
+    font-size: 20px;
+}
+
+.header-button {
+    background-color: gold;
+    color: black;
+    font-size: 20px;
+
+}
+
+.header-wave1 {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 3%;
+    z-index: 0;
+}
+
+.header-wave2 {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* FINE HEADER */
+
+/* MAIN */
+
+.lorem1 {
+    color: #1566C0;
+    font-size: 40px;
+}
+
+/* CARD */
+
+.cardimg1 {
+    background: linear-gradient(to top, black, transparent, rgb(5, 5, 5)), url(./1.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 300px;
+    color: white;
+
+}
+
+.cardimg2 {
+    background: linear-gradient(to top, black, transparent, rgb(5, 5, 5)), url(./2.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 300px;
+    color: white;
+}
+
+.cardimg3 {
+    background: linear-gradient(to top, black, transparent, rgb(5, 5, 5)), url(./3.png);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 300px;
+    color: white;
+}
+
+.cardimg4 {
+    background: linear-gradient(to top, black, transparent, rgb(5, 5, 5)), url(./4.png);
+    background-size: cover;
+    height: 50vh;
+    width: 300px;
+    color: white;
+
+}
+
+.hrcard {
+    background-color: gold;
+    border-bottom: 2px solid gold;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    margin: 0;
+}
+
+/* FINE CARD */
+
+/* INIZIO BOX E ICONE */
+
+.boxipsum {
+    background-color: white;
+    width: 75%;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 5px 5px 5px 5px;
+
+}
+
+.boxicons {
+    margin-top: 100px;
+    margin-right: 40px;
+
+}
+
+.boxicon {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px lightgrey;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FINE BOX E ICONE */
+
+
+/*  INIZIO SECTION */
+
+.sectionbox {
+    margin-top: 150px;
+}
+
+.sectionbox1 {
+    background-color: white;
+    width: 200px;
+    height: 170px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionbox2 {
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionbox3 {
+    background-color: white;
+    width: 250px;
+    height: 170px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin-left: 70px;
+}
+
+.sectionbox4 {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionbox5 {
+    background-color: white;
+    width: 250px;
+    height: 170px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionbox6 {
+    background-color: white;
+    width: 250px;
+    height: 150px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+}
+
+.sectionbox7 {
+    background-color: white;
+    width: 250px;
+    height: 170px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+
+
+}
+
+.sectionbox8 {
+    background-color: white;
+    width: 240px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+    margin-right: 150px !important;
+}
+
+/* FINE SECTION */
+
+/* INIZIO SECTION 2 */
+
+.img-tonde1 {
+
+    border: 8px solid var(--text-blu);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-color: #1566C0 !important;
+    margin-right: 200px;
+}
+
+.img-tonde2 {
+
+    border: 8px solid var(--text-blu);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-color: #1566C0 !important;
+    margin-left: 200px;
+}
+
+.sectionbox9 {
+    background-color: white;
+    width: 540px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+
+
+}
+
+.sectionbox10 {
+    background-color: white;
+    width: 540px;
+    height: 200px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+    padding: 5px 5px 5px 5px;
+
+}
+
+/* FINE SECTION 2 */
+
+/* INIZIO TIMELINE */
+
+.timelinetitolo {
+    margin-top: 150px;
+    color: #1566C0;
+}
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    color: var#1566C0;
+    background-color: #1566C0;
+    border: 2px solid z#1566C0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+}
+
+.loremleft1 {
+    padding: 40px 10px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    left: 0;
+}
+
+.loremleft1::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: -19px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.loremright1 {
+    padding: 40px 10px;
+    ;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    left: 50%;
+    text-align: right;
+}
+
+.loremright1::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: -16px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.loremleft2 {
+    padding: 40px 10px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.loremleft2::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: -18px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.loremright2 {
+    padding: 40px 10px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    left: 50%;
+    text-align: right;
+
+}
+
+.loremright2::after {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: -16px;
+    background-color: white;
+    border: 2px solid #1566C0;
+    top: 0px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    background-color: #1566C0;
+    color: white;
+
+}
+
+/* FINE TIMELINE */
+
+/* INIZIO FOOTER */
+
+footer {
+    background: linear-gradient(to top, black, transparent, white), url('./footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    color: white
+}
+
+.footer h2 {
+    color: gold;
+}
+
+/* FINE FOOTER */
